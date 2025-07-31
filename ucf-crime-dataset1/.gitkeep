@@ -1,0 +1,2 @@
+# This file ensures the ucf-crime-dataset1 directory structure is preserved in Git
+# The actual dataset files (Train/ and Test/ contents) are excluded via .gitignore
