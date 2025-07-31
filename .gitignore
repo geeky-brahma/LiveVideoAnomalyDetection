@@ -55,9 +55,13 @@ venv.bak/
 ehthumbs.db
 Thumbs.db
 
-# Large model files (optional - comment out if you want to include them)
-# *.h5
-# *.pt
+# Models directory - exclude all model files but keep folder structure
+models/*.h5
+models/*.pt
+!models/README.md
+
+# YOLO model files
+*.pt
 
 # Log files
 *.log
